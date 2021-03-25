@@ -1,0 +1,53 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background-image: url('E:/Website/img/beach2.jpg');
+   background-size:1920px 1080px;
+   background-repeat: no-repeat;
+   height:100%;
+   width:100%;
+}
+.article{
+   display: inline-block;
+   position: relative;
+   top: 280px;
+   left:220px;
+   font-size: 55px;
+   width:300px;
+}
+.navbar li{
+   list-style-type: none;
+   float: left;
+   margin: 0px 90px 0px 0px;
+}
+.navbar li a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 24px;
+}
+.navigation{
+   position: relative;
+   top: -380px;
+   height: 50px;
+}
+.navbar li a:hover{
+   color: #000;
+}
+#search{
+  float: right;
+  margin: 1px 120px 0px 0px;
+  width: 200px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.button{
+   float: right;
+   margin: 1px -253px 0px 0px;
+   padding: 1px 5px;
+   cursor: pointer;
+   font-size: 17px;
+}
+.button:hover{
+   background-color: #F1F1F1;
+}
